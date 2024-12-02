@@ -71,21 +71,21 @@ def getPictures(level_code):
     lowPic = ""
 
     if level_code == "1":
-        return ('Emojis/Resources.png', 'Emojis/Island.png', 'Emojis/SOS.png')
+        return ('Resources.png', 'Island.png', 'SOS.png')
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     elif level_code == "2A":
-        return ("Emojis/Hammer.png", "Emojis/House.png", "Emojis/ForkKnife.png")
+        return ("Hammer.png", "House.png", "ForkKnife.png")
     elif level_code == "2B" or level_code == "2C" or level_code == "2D" or level_code == "3B":
-        return ("Emojis/Fish.png", "Emojis/ForkKnife.png", "Emojis/Chicken.png")
+        return ("Fish.png", "ForkKnife.png", "Chicken.png")
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     elif level_code == "3A":
-        return ("Emojis/Death.png", "Emojis/X.png", "Emojis/Death.png")
+        return ("Death.png", "X.png", "Death.png")
     elif level_code == "3C" or level_code == "3D" or level_code == "3G" or level_code == "3H":
-        return ("Emojis/Death.png", "Emojis/Time.png", "Emojis/Death.png")
+        return ("Death.png", "Time.png", "Death.png")
     elif level_code == "3E":
-        return ("Emojis/Hospital.png", "Emojis/Money.png", "Emojis/Hospital.png")
+        return ("Hospital.png", "Money.png", "Hospital.png")
     elif level_code == "3F":
-        return ("Emojis/Happy.png", "Emojis/Airplane.png", "Emojis/Happy.png")
+        return ("Happy.png", "Airplane.png", "Happy.png")
     
     return (topPic, midPic, lowPic)
 
